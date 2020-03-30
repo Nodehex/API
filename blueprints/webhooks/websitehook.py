@@ -22,6 +22,6 @@ def handle_github_hook():
   if hmac.compare_digest(hashhex, signature):
     pullrequest = request.json
     if 'action' in pullrequest:
-      handle_github_hook(pullrequest)
+      handle_repository_update(pullrequest)
 
   return jsonify({}), 200

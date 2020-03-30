@@ -2,9 +2,9 @@ import os
 from flask import Flask
 from flask_cors import CORS, cross_origin
 
-from .api import api
-from .apihook import apihook
-from .websitehook import websitehook
+from .blueprints.api.api import api
+from .blueprints.webhooks.apihook import apihook
+from .blueprints.webhooks.websitehook import websitehook
 
 def create_app():
   app = Flask(__name__)
