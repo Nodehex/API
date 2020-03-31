@@ -1,4 +1,4 @@
 /__pycache__/
-/blueprint/__pycache__/
-/blueprint/api/__pycache__/
-/blueprint/webhooks/__pycache__/
+/blueprints/__pycache__/
+/blueprints/api/__pycache__/
+/blueprints/webhooks/__pycache__/
