@@ -3,3 +3,11 @@
 /*/*/__pycache__/
 *.py[co]
 
+blueprints/__pycache__/*
+blueprints/__pycache__/__init__.cpython-38.pyc
+blueprints/api/__pycache__/__init__.cpython-38.pyc
+blueprints/api/__pycache__/api.cpython-38.pyc
+blueprints/webhooks/__pycache__/__init__.cpython-38.pyc
+blueprints/webhooks/__pycache__/apihook.cpython-38.pyc
+blueprints/webhooks/__pycache__/helpers.cpython-38.pyc
+blueprints/webhooks/__pycache__/websitehook.cpython-38.pyc
