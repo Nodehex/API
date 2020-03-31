@@ -1,4 +1,5 @@
 /__pycache__/
-/blueprints/__pycache__/
-/blueprints/api/__pycache__/
-/blueprints/webhooks/__pycache__/
+/*/__pycache__/
+/*/*/__pycache__/
+*.py[co]
+
