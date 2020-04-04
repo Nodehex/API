@@ -2,7 +2,6 @@ import os
 from flask import Flask
 from flask_cors import CORS, cross_origin
 
-from .blueprints.api.api import api
 from .blueprints.webhooks.apihook import apihook
 from .blueprints.webhooks.websitehook import websitehook
 from .blueprints.webhooks.dashboardhook import dashboardhook
@@ -18,7 +17,6 @@ def create_app():
   app.config['DASHBOARD_PATH'] = os.environ.get('DASHBOARD_PATH')
   app.register_blueprint(apihook)
   app.register_blueprint(websitehook)
-  app.register_blueprint(api)
   app.register_blueprint(dashboardhook)
 
   return(app)
